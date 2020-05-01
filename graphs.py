@@ -59,7 +59,7 @@ def summary_graph(data):
 def evolution_graph(data):
     filename = 'evolution_graph.png'
 
-    fig = Figure(figsize=(14, 8))
+    fig = Figure(figsize=(18, 10))
 
     ax = fig.add_subplot(1, 1, 1)
 
@@ -111,7 +111,7 @@ def evolution_graph(data):
 def evolution_recuperados_graph(data):
     filename = 'evolution_recuperados_graph.png'
 
-    fig = Figure(figsize=(14, 7))
+    fig = Figure(figsize=(18, 10))
 
     ax = fig.add_subplot(1, 1, 1)
 
@@ -153,7 +153,7 @@ def evolution_recuperados_graph(data):
 def evolution_fallecidos_graph(data):
     filename = 'evolution_fallecidos_graph.png'
 
-    fig = Figure(figsize=(14, 7))
+    fig = Figure(figsize=(18, 10))
 
     ax = fig.add_subplot(1, 1, 1)
 
